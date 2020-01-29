@@ -1,0 +1,102 @@
+/* start Style The Navbar Here */
+
+nav.navbar-cs {
+   background-color: black !important;
+   opacity: .7 !important;
+   border-bottom: solid 5px #4D7AB3;
+}
+
+@media (max-width: 575px) {
+   .container {
+      width: 100% !important;
+   }
+}
+
+
+/* End Style The Navbar Here */
+
+
+/* Start Styling The Home Section Here */
+
+header.home-section {
+   background: url("../img/home.jpg") top center no-repeat fixed;
+   background-size: cover;
+   min-height: 700px;
+}
+
+header.home-section .dark-overlay {
+   background-color: rgba(141, 147, 155, .3);
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-height: 700px;
+   width: 100%;
+}
+
+header.home-section .dark-overlay .home-inner {
+   padding-top: 150px;
+}
+
+header.home-section .dark-overlay .home-inner .fa {
+   background-color: white;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 25px;
+}
+
+header.home-section .dark-overlay .home-inner input[type="submit"] {
+   cursor: pointer;
+}
+
+
+/* end Styling The Home Section Here */
+
+
+/* start Styling The Explore Section Here */
+
+section.explore-section-1 {
+   background-color: #000;
+   color: white;
+}
+
+section.explore-section-2 .fa {
+   background-color: black;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 18px;
+   color: white;
+   margin-top: 25px;
+}
+
+
+/* End Styling The Explore Section Here */
+
+
+/* Start Styling The Creat Section Here */
+
+section.create-section-2 .fa {
+   background-color: white;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 18px;
+   color: black;
+   margin-top: 25px;
+}
+
+
+/* Start Styling The Creat Section Here */
+
+
+/* Start Styling the Footer Here */
+
+section.main-footer .modal {
+   color: black;
+}
+
+section.main-footer .modal textarea {
+   resize: none;
+   height: 200px;
+}
+
+
+/* End Styling the Footer Here */
